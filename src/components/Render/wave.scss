@@ -1,0 +1,21 @@
+#particle-wave {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    @media (max-width: 767px){
+        height: 100%;
+    }
+}
+
+#particle-wave canvas {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+#particle-wave canvas + canvas
+{
+    display: none;
+}
