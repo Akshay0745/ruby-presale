@@ -288,7 +288,7 @@ function Presale() {
             </Grid>
           </Paper>
           <div className="protocol-image">
-            <div className="pyramid tiq">
+            <div className="pyramid tiq new">
             <img src={PyramidOne} />                          
             </div>
           </div>
